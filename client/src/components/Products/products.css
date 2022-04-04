@@ -1,0 +1,87 @@
+.product {
+  background-color: lightgray;
+  width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product__list {
+  width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 80px;
+}
+ul {
+  list-style: none;
+}
+header {
+  width: 100vw;
+  border-bottom: 3px solid rgb(51, 159, 192);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 80px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: rgb(51, 159, 192);
+}
+
+.add__icon{
+  width: 2rem;
+  height: 2rem;
+}
+
+.product__container {
+  border: 1px solid rgb(172, 169, 169);
+  width: 600px;
+  padding: 15px;
+  margin-bottom: 10vh;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid; */
+}
+
+.product__button {
+  text-decoration: none;
+  color: grey;
+  margin-right: 10px;
+}
+
+.product__button:hover {
+  cursor: pointer;
+  color: rgb(51, 159, 192);
+}
+
+li {
+  display: flex;
+  flex-direction: column wrap;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.2rem;
+}
+
+.author {
+  color: gray;
+}
+
+.logout__button{
+  text-decoration: none;
+  color: grey;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
